@@ -1,8 +1,4 @@
 var plugins = [{
-      name: 'gatsby-plugin-fontawesome-css',
-      plugin: require('/Users/bmediax/Desktop/Develop/jocabeth/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr.js'),
-      options: {"plugins":[]},
-    },{
       name: 'gatsby-plugin-react-helmet',
       plugin: require('/Users/bmediax/Desktop/Develop/jocabeth/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
@@ -13,7 +9,7 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/bmediax/Desktop/Develop/jocabeth/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
-      options: {"plugins":[],"name":"Jocabeth","short_name":"joca","start_url":"/","background_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
+      options: {"plugins":[],"name":"Jocabeth","short_name":"joca","start_url":"/","background_color":"#fff7f8","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
