@@ -1,20 +1,21 @@
+import "../styles/index.scss";
+
 import * as React from "react";
 
-import Layout from "../components/layout";
-import { Link } from "gatsby";
 import Seo from "../components/seo";
-import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage = () => (
   <>
     <Seo title="Home" />
-    <br />
-    <a
-      href="https://www.gofundme.com/f/jocabeth"
-      style={{ textAlign: "center", display: "block" }}
-    >
-      Go to Funeral Expenses for Jocabeth Teodoro Garcia Gofundme
-    </a>
+    <div id="card_wrapper">
+      <img
+        src="https://images.gofundme.com/xoNZR3RCn3cyicTtQvTscrOC3_I=/720x405/https://d2g8igdw686xgo.cloudfront.net/64727775_16501279955438_r.jpeg"
+        alt="GoFundMe Cover"
+      />
+      <div className="card_content">
+        <a href="https://www.gofundme.com/f/jocabeth">Visit GoFundMe</a>
+      </div>
+    </div>
   </>
 );
 
