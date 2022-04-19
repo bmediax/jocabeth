@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: `https://jocabeth.com`,
   },
   plugins: [
-    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
@@ -25,7 +24,7 @@ module.exports = {
         name: `Jocabeth`,
         short_name: `joca`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#fff7f8`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
