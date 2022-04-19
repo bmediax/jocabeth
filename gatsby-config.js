@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://jocabeth.com`,
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,

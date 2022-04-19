@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+:root {
+  --pink: #ffc2ca;
+  --pink-light: #fff7f8;
+  --purple: #6e4c78;
+  --rose: #eb6e7d;
+  --redOrange: #d1454e;
+}
+
+::selection {
+  background: var(--redOrange);
+  color: var(--pink-light);
+}

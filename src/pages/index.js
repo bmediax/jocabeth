@@ -1,17 +1,15 @@
-import "../styles/index.scss";
-
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Seo from "../components/seo";
+import "../styles/index.scss";
 
 const IndexPage = () => (
   <>
     <Seo title="Home" />
+    <h1>Jocabeth's Memorial</h1>
     <div id="card_wrapper">
-      <img
-        src="https://images.gofundme.com/xoNZR3RCn3cyicTtQvTscrOC3_I=/720x405/https://d2g8igdw686xgo.cloudfront.net/64727775_16501279955438_r.jpeg"
-        alt="GoFundMe Cover"
-      />
+      <StaticImage src="../images/joca-cover_top.jpg" alt="GoFundMe Cover" />
       <div className="card_content">
         <a href="https://www.gofundme.com/f/jocabeth">Visit GoFundMe</a>
       </div>
