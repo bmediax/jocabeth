@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
+  --color-minimal: #f4f4f6;
   --slate: #f1e9de;
   --purple: #806298;
   --brick: #989489;
+
+  --radius-sm: 6px;
 }
 
 // ::selection {

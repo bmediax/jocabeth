@@ -1,42 +1,39 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import * as React from "react";
+import * as headerStyles from "../styles/header.module.scss";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+import { AiFillHeart } from 'react-icons/ai';
+import { BiTimeFive } from "react-icons/bi";
+
+const Header = () => (
+  <header id={headerStyles.header}>
+    <div className={headerStyles.content}>
+      <div className={headerStyles.title}>
+        <span className={headerStyles.name}>Jocabeth's</span>{" "}
+        <span className={headerStyles.memorial}>Memorial</span>
+      </div>
+      <div className={headerStyles.btnGroup}>
+        <a href="#schedule" className="btn white-outline">
+          View Schedule <BiTimeFive />
+        </a>
+        <a
+          href="https://www.gofundme.com/f/jocabeth"
+          className="btn white-outline"
+          target="_blank"
+          rel="noreferrer"
         >
-          {siteTitle}
-        </Link>
-      </h1>
+          Donate Now <AiFillHeart />
+        </a>
+      </div>
     </div>
   </header>
-)
+);
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+// Header.defaultProps = {
+//   siteTitle: ``,
+// }
 
-export default Header
+export default Header;

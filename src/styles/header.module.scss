@@ -1,0 +1,76 @@
+#header {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: right center;
+  height: 80vh;
+  min-height: 500px;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+.title {
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: 'Yeseva One', cursive !important;
+
+  .name {
+    font-size: clamp(3rem, 6vw, 5rem);
+    letter-spacing: 0.23em;
+    display: block;
+  }
+
+  .memorial {
+    font-size: clamp(4rem, 8vw, 6.7em);
+    letter-spacing: 0.07em;
+    font-weight: bold;
+  }
+}
+
+.btnGroup {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+
+  a {
+    svg {
+      position: relative;
+      top: 3px;
+      display: inline-block;
+    }
+  }
+
+  // & > * {
+  //   flex: 1;
+  // }
+}
+
+@media screen and (max-width: 1035px) {
+  #header {
+    grid-template-columns: 1fr;
+    align-content: flex-end;
+
+    .content {
+      background: rgb(0 0 0 / 75%);
+      backdrop-filter: blur(5px);
+      width: 100%;
+      padding-block: 30px;
+
+      .title {
+        text-align: center;
+      }
+    }
+    .btnGroup {
+      justify-content: center;
+    }
+  }
+}
