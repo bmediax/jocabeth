@@ -1,8 +1,9 @@
+import "../styles/index.scss";
+
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 
 import Seo from "../components/seo";
-import "../styles/index.scss";
+import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage = () => (
   <>

@@ -1,14 +1,12 @@
-// @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 :root {
-  --pink: #ffc2ca;
-  --pink-light: #fff7f8;
-  --purple: #6e4c78;
-  --rose: #eb6e7d;
-  --redOrange: #d1454e;
+  --slate: #f1e9de;
+  --purple: #806298;
+  --brick: #989489;
 }
 
-::selection {
-  background: var(--redOrange);
-  color: var(--pink-light);
-}
+// ::selection {
+//   background: var(--redOrange);
+//   color: var(--pink-light);
+// }
