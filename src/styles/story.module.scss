@@ -1,0 +1,13 @@
+.section {
+    background: #fafafa;
+
+  p {
+    font-size: 1.5rem;
+    line-height:1.6;
+    font-weight:400;
+  }
+
+  p:not(:first-child) {
+    margin-block-start: 10px;
+  }
+}

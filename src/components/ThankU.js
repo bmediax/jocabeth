@@ -1,5 +1,6 @@
-import React from 'react';
-import Section from './Section';
+import { AiTwotoneHeart } from "react-icons/ai";
+import React from "react";
+import Section from "./Section";
 
 const ThankU = () => {
   return (
@@ -15,6 +16,6 @@ const ThankU = () => {
       </h1>
     </Section>
   );
-}
+};
 
-export default ThankU
+export default ThankU;

@@ -2,7 +2,7 @@ import * as sectionStyles from "../styles/section.module.scss";
 
 import React from "react";
 
-const Section = ({ title, children, type, id }) => {
+const Section = ({ title, children, type, id, className }) => {
   const isTitle = (titleData) => {
     if (titleData === "" || titleData === undefined) {
       return "";
@@ -11,7 +11,7 @@ const Section = ({ title, children, type, id }) => {
     }
   };
   return (
-    <section id={id} className={`${sectionStyles.section} ${type}-section`}>
+    <section id={id} className={`${sectionStyles.section} ${type}-section ${className ? className : ''}`}>
       {isTitle(title)}
       <div className={sectionStyles.content}>{children}</div>
     </section>

@@ -24,6 +24,14 @@ h1 {
   margin: 0%;
   padding: 0;
   color: #212121;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif !important;
+  text-align:center;
+  font-weight:700;
+  font-size:1.8rem;
 }
 
 p {
@@ -43,7 +51,6 @@ blockquote {
   width: fit-content;
   border-left: 7px solid #d35b5b;
   margin-inline: auto !important;
-  margin-block-end:30px;
 }
 
 #card_wrapper {
@@ -115,19 +122,6 @@ blockquote {
   &:hover {
     --btn-bg: #fff;
     --btn-color: #000;
-  }
-}
-
-.intro-section {
-  background: #fafafa;
-
-  p {
-    font-size: 1rem;
-    line-height:1.5;
-  }
-
-  p:not(:first-child) {
-    margin-block-start: 10px;
   }
 }
 
