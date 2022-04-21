@@ -32,20 +32,14 @@ const Schedule = () => {
           </Col>
           <Col md={12}>
             <blockquote>
-              {/* No se requieren máscaras, sin embargo, se recomienda por respeto a
-              la familia Moreno - García. */}
-              Sabemos que las reglas de la pandemia de covid 19 an cambiado. Se
-              les recomiendo que usen cubrevoca y hand sanitizer. Pero si tiene
-              sintomas de covid le pedimos que se quede en casa por el bien de
-              los demas.
+              Se les recomienda que usen cubreboca y hand
+              sanitizer. Pero si tiene sintomas de covid le pedimos que se quede
+              en casa por el bien de los demas.
               <br></br>
               <br></br>
-              We know that the rules of the covid 19 pandemic have changed. I
-              recommend that you use mouth cover and hand sanitizer. But if you
+              We recommend that you use face masks and hand sanitizer. But if you
               have symptoms of covid we ask you to stay home for the good of
               others.
-              {/* Masks are not required, however, are encouraged for the
-              respect of the Moreno - Garcia family. */}
             </blockquote>
           </Col>
           <Col md={12}>
