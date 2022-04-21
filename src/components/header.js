@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as headerStyles from "../styles/header.module.scss";
 
-import { AiFillHeart } from 'react-icons/ai';
 import { BiTimeFive } from "react-icons/bi";
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 const Header = () => (
   <header id={headerStyles.header}>
@@ -21,7 +21,7 @@ const Header = () => (
           target="_blank"
           rel="noreferrer"
         >
-          Donate Now <AiFillHeart />
+          Donate Now <FaHandHoldingHeart />
         </a>
       </div>
     </div>

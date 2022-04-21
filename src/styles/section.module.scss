@@ -2,7 +2,7 @@
   padding-block: clamp(40px, 8vw, 120px);
 
   .title {
-    font-size: clamp(2rem, 6vw, 3rem) !important;
+    font-size: clamp(2rem, 5vw, 3rem) !important;
     padding: 0px !important;
     margin-block-start: 0px !important;
     margin-block-end: 30px !important;
@@ -11,5 +11,7 @@
 
   .content {
     padding-inline: 30px;
+    max-width: var(--max-width);
+    margin-inline: auto;
   }
 }

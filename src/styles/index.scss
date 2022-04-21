@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
@@ -26,21 +27,23 @@ h1 {
 }
 
 p {
-  font-size: 16px;
-  color: #84849a;
+  font-size: 1.6rem;
+  color: #454545;
   font-family: 'Inter', sans-serif;
 }
 
 blockquote {
   font-family: 'Inter', sans-serif;
-  font-weight:500;
+  font-weight: 500;
+  font-size: 1.2rem;
   background: var(--color-minimal);
   display: block;
   padding: 10px 20px;
   border-radius: var(--radius-sm);
   width: fit-content;
-  margin-inline: auto;
   border-left: 7px solid #d35b5b;
+  margin-inline: auto !important;
+  margin-block-end:30px;
 }
 
 #card_wrapper {
@@ -98,9 +101,9 @@ blockquote {
   font-size: 1.3rem;
   font-weight: 500;
   border-radius: 0.5rem;
-  background: var(--btn-bg, red);
-  color: var(--btn-color, blue);
-  border: 2px solid var(--btn-border, purple);
+  background: var(--btn-bg, #fff);
+  color: var(--btn-color, #000);
+  border: 2px solid var(--btn-border, #fff);
   transition: background 250ms ease, color 250ms ease, border-color 250ms ease;
 }
 
@@ -117,13 +120,63 @@ blockquote {
 
 .intro-section {
   background: #fafafa;
+
+  p {
+    font-size: 1rem;
+    line-height:1.5;
+  }
+
+  p:not(:first-child) {
+    margin-block-start: 10px;
+  }
 }
 
 .schedule-section {
   background: #fff;
 }
 
+.thanku-section {
+  background: #000;
+
+  h1 {
+    margin-block-start:0px !important;
+    color: #fff;
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    line-height: 1.5;
+
+    svg {
+      display: inline;
+      color: #d35b5b;
+    }
+
+    span {
+      margin-block-start: 15px;
+      display: block;
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      text-align: center;
+    }
+  }
+}
+
+.infoCard {
+  h3 {
+    font-size: clamp(1.4rem, 4vw, 1.6rem);
+    font-weight: 600;
+    margin-block-end: 5px;
+  }
+
+  a {
+    color: var(--color-purple);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}
+
 @media screen and (max-width: 550px) {
+  html {
+    font-size: 14px;
+  }
   html,
   body {
     align-items: flex-start;

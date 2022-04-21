@@ -3,11 +3,12 @@
 
 :root {
   --color-minimal: #f4f4f6;
-  --slate: #f1e9de;
-  --purple: #806298;
-  --brick: #989489;
+  --color-purple: #806298;
+  --color-slate: #f1e9de;
+  --color-brick: #989489;
 
   --radius-sm: 6px;
+  --max-width:1200px;
 }
 
 // ::selection {
