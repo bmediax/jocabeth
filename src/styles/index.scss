@@ -35,20 +35,25 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #454545;
   font-family: 'Inter', sans-serif;
+
+  a {
+    color:var(--color-purple);
+    text-decoration: none;
+  }
 }
 
 blockquote {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background: var(--color-minimal);
   display: block;
   padding: 10px 20px;
   border-radius: var(--radius-sm);
-  width: fit-content;
+  width: 100%;
   border-left: 7px solid #d35b5b;
   margin-inline: auto !important;
 }

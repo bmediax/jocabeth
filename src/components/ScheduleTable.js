@@ -5,7 +5,7 @@ import { Table } from "react-bootstrap";
 
 const ScheduleTable = () => (
   <div id={tableStyles.table}>
-    <h2>Schedule</h2>
+    <h2>Schedule / Horario</h2>
     <Table
       bordered
       hover
@@ -15,18 +15,18 @@ const ScheduleTable = () => (
         paddingBlock: "30px",
       }}
     >
-      <thead>
+      {/* <thead>
         <tr>
           <th>Time</th>
           <th>Spanish</th>
           <th>English</th>
         </tr>
-      </thead>
+      </thead> */}
       <tbody>
         <tr>
           <td>9:30 am</td>
-          <td>Empiezo de celebracion</td>
-          <td>Start Celebration</td>
+          <td>Empiezo de celebracion en Omega Funeral & Cremation Services</td>
+          <td>Start Celebration at Omega Funeral & Cremation Services</td>
         </tr>
         <tr>
           <td>10:00 am</td>
@@ -55,8 +55,25 @@ const ScheduleTable = () => (
         </tr>
         <tr>
           <td>3:00 pm</td>
-          <td>Servicio en el cementerio</td>
-          <td>Funeral Service at the Cementary</td>
+          <td>Servicio en Historic Columbia Cementery</td>
+          <td>Funeral Service at the Historic Columbia Cementery</td>
+        </tr>
+        <tr>
+          <td colSpan="3">
+            <p style={{padding:"0", margin:"0", fontWeight:"500"}}>
+              Despues del funeral se les invita a un Rosario y cena en la casa
+              de la familia Moreno Teodoro.{" "}
+              <a href="https://goo.gl/maps/XSAx4NnegatVMeKN8">
+                8943 NE GOING ST. Portland, OR.
+              </a>
+              <br></br>
+              After the burial we invite you to a Rosary and dinner at the house
+              of the Moreno Teodoro family.{" "}
+              <a href="https://goo.gl/maps/XSAx4NnegatVMeKN8">
+                8943 NE GOING ST. Portland, OR.
+              </a>
+            </p>
+          </td>
         </tr>
       </tbody>
     </Table>

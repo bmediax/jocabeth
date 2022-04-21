@@ -6,8 +6,10 @@ const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
       <p>
-        En memoria de Jocabeth Teodoro - Garcia / In memory of Jocabeth Teodoro
-        - Garcia
+        <i>
+          En la memoria de Jocabeth Teodoro - Garcia / In the memory of Jocabeth
+          Teodoro - Garcia
+        </i>
       </p>
     </footer>
   );

@@ -1,5 +1,21 @@
+.scheduleSection {
+  .invitation {
+    font-weight: 500;
+    margin-block-end: 30px;
+    background: #fff;
+    box-shadow: 0px 10px 30px -10px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(234 234 234);
+
+    &:hover {
+      background: #fafafa;
+    }
+  }
+}
+
 .locationsSection iframe {
-  margin-block-start:15px;
+  margin-block-start: 15px;
 }
 
 @media screen and (max-width: 550px) {
