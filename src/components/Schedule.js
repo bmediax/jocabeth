@@ -27,11 +27,11 @@ const Schedule = () => {
           <Col>
             {/* Table with the Schedule */}
             <ScheduleTable />
-            <p style={{fontWeight:"500", marginBlockEnd: "30px"}}>
+            <p style={{ fontWeight: "500", marginBlockEnd: "30px" }}>
               Despues del entierro se les invita a un Rosario y cena en la casa
               de la familia Moreno Teodoro. 8943 NE GOING ST. Portland, OR /
-              After the burial we invite you to a Rosary and dinner at the
-              house of the Moreno Teodoro family. 8943 NE GOING ST. Portland, OR
+              After the burial we invite you to a Rosary and dinner at the house
+              of the Moreno Teodoro family. 8943 NE GOING ST. Portland, OR
             </p>
           </Col>
         </Row>
@@ -40,7 +40,7 @@ const Schedule = () => {
             <InfoCard
               title="Omega Funeral & Cremation Services"
               link="https://g.page/omegafuneralandcremationservice?share"
-              linkText={"223 SE 122nd Ave. Portland, OR 97233"}
+              linkText="223 SE 122nd Ave. Portland, OR 97233"
               mapSrc="https://maps.google.com/maps?q=223%20SE%20122nd%20Ave.%20Portland,%20OR%2097233&t=&z=17&ie=UTF8&iwloc=&output=embed"
             />
           </Col>
@@ -48,7 +48,7 @@ const Schedule = () => {
             <InfoCard
               title="Historic Columbia Cementery"
               link="https://goo.gl/maps/bu9zQiyeKG9vRdMZ9"
-              linkText={"1151 N Columbia Blv. Portland, OR 97211"}
+              linkText="1151 N Columbia Blv. Portland, OR 97211"
               mapSrc="https://maps.google.com/maps?q=1151%20N%20Columbia%20Blv.%20Portland,%20OR%2097211&t=&z=17&ie=UTF8&iwloc=&output=embed"
             />
           </Col>

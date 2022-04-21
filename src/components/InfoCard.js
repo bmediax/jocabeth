@@ -26,7 +26,3 @@ const InfoCard = ({ title, link, linkText, mapSrc }) => {
 };
 
 export default InfoCard;
-
-{
-  /* <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> */
-}
