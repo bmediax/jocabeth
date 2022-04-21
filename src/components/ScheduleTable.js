@@ -51,12 +51,12 @@ const ScheduleTable = () => (
         <tr>
           <td>2:30 pm</td>
           <td>Partida al cementerio</td>
-          <td>Cementary</td>
+          <td>Head to Cementary</td>
         </tr>
         <tr>
           <td>3:00 pm</td>
           <td>Servicio en el cementerio</td>
-          <td>Service at the Cementary</td>
+          <td>Funeral Service at the Cementary</td>
         </tr>
       </tbody>
     </Table>
