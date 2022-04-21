@@ -28,7 +28,7 @@ const Schedule = () => {
             {/* Table with the Schedule */}
             <ScheduleTable />
             <p style={{ fontWeight: "500", marginBlockEnd: "30px" }}>
-              Despues del entierro se les invita a un Rosario y cena en la casa
+              Despues del funeral se les invita a un Rosario y cena en la casa
               de la familia Moreno Teodoro. 8943 NE GOING ST. Portland, OR /
               After the burial we invite you to a Rosary and dinner at the house
               of the Moreno Teodoro family. 8943 NE GOING ST. Portland, OR
