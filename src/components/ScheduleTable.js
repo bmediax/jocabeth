@@ -31,7 +31,7 @@ const ScheduleTable = () => (
         <tr>
           <td>10:00 am</td>
           <td>Misa de cuerpo presente</td>
-          <td>Misa of present Body</td>
+          <td>Holy Mass of present Body</td>
         </tr>
         <tr>
           <td>11:00 am</td>
