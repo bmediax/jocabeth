@@ -29,9 +29,9 @@ h1 {
 
 h2 {
   font-family: 'Inter', sans-serif !important;
-  text-align:center;
-  font-weight:700;
-  font-size:1.8rem;
+  text-align: center;
+  font-weight: 700 !important;
+  font-size: 1.8rem !important;
 }
 
 p {
@@ -51,6 +51,14 @@ blockquote {
   width: fit-content;
   border-left: 7px solid #d35b5b;
   margin-inline: auto !important;
+}
+.sectionImage {
+  width:100%;
+  max-height:500px;
+
+  img {
+    object-position: bottom;
+  }
 }
 
 #card_wrapper {
@@ -125,6 +133,11 @@ blockquote {
   }
 }
 
+.white-outline_active {
+  --btn-bg: #fff;
+  --btn-color: #000;
+}
+
 .schedule-section {
   background: #fff;
 }
@@ -133,7 +146,7 @@ blockquote {
   background: #000;
 
   h1 {
-    margin-block-start:0px !important;
+    margin-block-start: 0px !important;
     color: #fff;
     font-size: clamp(1.3rem, 3vw, 2rem);
     line-height: 1.5;
@@ -178,7 +191,13 @@ blockquote {
   h1 {
     margin-block-start: 20px !important;
   }
+  
   #card_wrapper {
     margin-block-start: 2%;
+  }
+
+  .btn {
+    display:block;
+    width:100%;
   }
 }

@@ -5,7 +5,10 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
-      <p>In memory of Jocabeth Teodoro - Garcia</p>
+      <p>
+        En memoria de Jocabeth Teodoro - Garcia / In memory of Jocabeth Teodoro
+        - Garcia
+      </p>
     </footer>
   );
 };

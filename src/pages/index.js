@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Header from "../components/header";
 import Schedule from "../components/Schedule";
 import Seo from "../components/seo";
+import { StaticImage } from "gatsby-plugin-image";
 import Story from "../components/Story";
 import ThankU from "../components/ThankU";
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Header />
     <Story />
+    <StaticImage src="../images/joca_altar_view.jpg" alt="Altar" className="sectionImage"/>
     <Schedule />
     <ThankU />
     <Footer />

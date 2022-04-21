@@ -13,15 +13,19 @@
   .content {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1.5em;
   }
 }
 
 .title {
   color: #fff;
   line-height: 1;
-  text-transform: uppercase;
   font-family: 'Yeseva One', cursive !important;
+
+  .name,
+  .memorial {
+    text-transform: uppercase;
+  }
 
   .name {
     font-size: clamp(3rem, 6vw, 5rem);
@@ -33,6 +37,14 @@
     font-size: clamp(4rem, 8vw, 6.7em);
     letter-spacing: 0.07em;
     font-weight: bold;
+  }
+
+  .date {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-block: 5px 10px;
   }
 }
 
@@ -65,12 +77,26 @@
       width: 100%;
       padding-block: 30px;
 
-      .title {
+      .title,
+      .date {
         text-align: center;
+      }
+
+      .date {
+        margin-block-start: 10px;
       }
     }
     .btnGroup {
+      width: 90%;
+      margin-inline: auto;
       justify-content: center;
+      align-items: center;
     }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btnGroup {
+    flex-direction: column;
   }
 }

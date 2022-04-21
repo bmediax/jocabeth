@@ -10,9 +10,12 @@ const Header = () => (
       <div className={headerStyles.title}>
         <span className={headerStyles.name}>Jocabeth's</span>{" "}
         <span className={headerStyles.memorial}>Memorial</span>
+        <span className={headerStyles.date}>
+          July 25, 1980 – April 15, 2022
+        </span>
       </div>
       <div className={headerStyles.btnGroup}>
-        <a href="#schedule" className="btn white-outline">
+        <a href="#schedule" className="btn white-outline_active">
           View Schedule <BiTimeFive />
         </a>
         <a

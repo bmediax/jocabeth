@@ -1,6 +1,7 @@
 #table {
   display: block;
   margin-block: clamp(15px, 3vw, 50px);
+  
   table tbody > tr > td:first-child {
     background: var(--color-minimal);
     text-align: center;
