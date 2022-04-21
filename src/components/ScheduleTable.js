@@ -24,7 +24,7 @@ const ScheduleTable = () => (
       </thead>
       <tbody>
         <tr>
-          <td>9:00 am</td>
+          <td>9:30 am</td>
           <td>Empiezo de celebracion</td>
           <td>Start Celebration</td>
         </tr>

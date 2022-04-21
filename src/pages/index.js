@@ -13,7 +13,7 @@ import ThankU from "../components/ThankU";
 
 const IndexPage = () => (
   <>
-    <Seo title="Home" />
+    <Seo title="Jocabeth's Memorial" />
     <Header />
     <Story />
     <StaticImage src="../images/joca_altar_view.jpg" alt="Altar" className="sectionImage"/>
