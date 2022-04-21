@@ -18,8 +18,8 @@ const Schedule = () => {
         Por peticion de el Esposo e Hijos se les pide de fabor no tomar fotos y
         video. Guardemos este triste acontecimento en nuestras memorias.{" "}
         <br></br>
-        <br></br>At the request of the Husband and Children, they are kindly
-        asked not to take photos and video. Let's keep this sad event in our
+        <br></br>At the request of the Husband and Children, they kindly
+        ask not to take photos and video. Let's keep this sad event in our
         memories
       </blockquote>
       <Container fluid={true}>
