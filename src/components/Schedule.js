@@ -32,13 +32,13 @@ const Schedule = () => {
           </Col>
           <Col md={12}>
             <blockquote>
-              Se les recomienda que usen cubreboca y hand
-              sanitizer. Pero si tiene sintomas de covid le pedimos que se quede
-              en casa por el bien de los demas.
+              Se les recomienda que usen cubreboca y hand sanitizer. Pero si
+              tiene sintomas de covid le pedimos que se quede en casa por el
+              bien de los demas.
               <br></br>
               <br></br>
-              We recommend that you use face masks and hand sanitizer. But if you
-              have symptoms of covid we ask you to stay home for the good of
+              We recommend that you use face masks and hand sanitizer. But if
+              you have symptoms of covid we ask you to stay home for the good of
               others.
             </blockquote>
           </Col>
