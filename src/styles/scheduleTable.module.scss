@@ -1,6 +1,6 @@
 #table {
   display: block;
-  margin-block: clamp(15px, 3vw, 50px);
+  margin-block: clamp(15px, 2vw, 20px);
   
   table tbody > tr > td:first-child {
     background: var(--color-minimal);

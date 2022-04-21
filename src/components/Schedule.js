@@ -16,15 +16,23 @@ const Schedule = () => {
     >
       <blockquote>
         Por peticion de el Esposo e Hijos se les pide de fabor no tomar fotos y
-        video. Guardemos este triste acontecimento en nuestras memorias. <br></br><br></br>At
-        the request of the Husband and Children, they are kindly asked not to
-        take photos and video. Let's keep this sad event in our memories
+        video. Guardemos este triste acontecimento en nuestras memorias.{" "}
+        <br></br>
+        <br></br>At the request of the Husband and Children, they are kindly
+        asked not to take photos and video. Let's keep this sad event in our
+        memories
       </blockquote>
       <Container fluid={true}>
         <Row>
           <Col>
             {/* Table with the Schedule */}
             <ScheduleTable />
+            <p style={{fontWeight:"500", marginBlockEnd: "30px"}}>
+              Despues del entierro se les invita a un Rosario y cena en la casa
+              de la familia Moreno Teodoro. 8943 NE GOING ST. Portland, OR /
+              After the burial we invite you to a Rosary and dinner at the
+              house of the Moreno Teodoro family. 8943 NE GOING ST. Portland, OR
+            </p>
           </Col>
         </Row>
         <Row className={scheduleStyles.locationsSection}>
