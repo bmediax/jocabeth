@@ -40,8 +40,8 @@ const ScheduleTable = () => (
         </tr>
         <tr>
           <td>12:00 pm</td>
-          <td>Servicio de el Pastor Hociel Romero</td>
-          <td>Service by Pastor Hociel Romero</td>
+          <td>Servicio de el Pastor Otoniel Romero</td>
+          <td>Service by Pastor Otoniel Romero</td>
         </tr>
         <tr>
           <td>1:00 pm</td>
