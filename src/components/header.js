@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as headerStyles from "../styles/header.module.scss";
 
-import { BiTimeFive } from "react-icons/bi";
-import { FaHandHoldingHeart } from "react-icons/fa";
+import { GiCandleLight } from "react-icons/gi";
+import { RiHandHeartFill } from "react-icons/ri";
 
 const Header = () => (
   <header id={headerStyles.header}>
@@ -16,7 +16,7 @@ const Header = () => (
       </div>
       <div className={headerStyles.btnGroup}>
         <a href="#schedule" className="btn white-outline_active">
-          View Schedule <BiTimeFive />
+          View Service <GiCandleLight />
         </a>
         <a
           href="https://www.gofundme.com/f/jocabeth"
@@ -24,7 +24,7 @@ const Header = () => (
           target="_blank"
           rel="noreferrer"
         >
-          Donate Now <FaHandHoldingHeart />
+          Donate Now <RiHandHeartFill />
         </a>
       </div>
     </div>

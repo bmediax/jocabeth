@@ -1,10 +1,6 @@
 #table {
   display: block;
   margin-block: clamp(15px, 2vw, 20px);
-
-  h2 {
-    margin-block-end:15px;
-  }
   
   table tbody > tr > td:first-child {
     background: var(--color-minimal);

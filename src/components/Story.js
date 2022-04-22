@@ -6,7 +6,7 @@ import Section from "./Section";
 const Story = () => {
   return (
     <Section
-      title="LA HISTORY DE JOCABETH / JOCABETH’S STORY"
+      title="LA HISTORIA DE JOCABETH / JOCABETH’S STORY"
       type="intro"
       className={storyStyles.section}
     >
@@ -25,7 +25,7 @@ const Story = () => {
         Zumba, ayudando y compartiendo sus experiencias con personas que también
         han tenido enfermedades crónicas y uniéndose a un estudio bíblico.
       </p>
-      <hr />
+      <hr style={{height: "clamp(10px, 3vw, 40px)", background: "transparent"}}/>
       <p>
         On Friday, April 15th, Jocabeth Teodoro - Garcia had medical
         complications that resulted in her passing away.

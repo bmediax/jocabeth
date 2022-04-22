@@ -14,6 +14,12 @@
   }
 }
 
+.importantSection {
+  & > div > div:not(:nth-child(-n + 2)) > blockquote {
+    margin-block-start:10px;
+  }
+}
+
 .locationsSection iframe {
   margin-block-start: 15px;
 }

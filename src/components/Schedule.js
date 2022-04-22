@@ -14,7 +14,7 @@ const Schedule = () => {
       type="schedule"
       id="schedule"
     >
-      <Container fluid>
+      <Container fluid={true} className={scheduleStyles.importantSection}>
         <Row>
           <Col md={12}>
             <h2>Importante / Important</h2>
