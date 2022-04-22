@@ -1,3 +1,5 @@
+import "react-image-gallery/styles/scss/image-gallery.scss";
+
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import React from "react";
@@ -18,9 +20,22 @@ const Gallery = () => {
             alt="Joca"
             src="../images/gallery/joca-altar-topview.jpg"
           />
+          <StaticImage alt="Joca" src="../images/gallery/joca_front.jpg" />
+          <StaticImage alt="Joca" src="../images/gallery/joca-kids-small.jpg" />
           <StaticImage
             alt="Joca"
-            src="../images/gallery/joca-altar-topview.jpg"
+            src="../images/gallery/family_skillsusa.JPG"
+          />
+          <StaticImage alt="Joca" src="../images/gallery/mom_cooking.jpeg" />
+          <StaticImage alt="Joca" src="../images/gallery/mom-laugh.JPG" />
+          <StaticImage alt="Joca" src="../images/gallery/momandbrian.jpg" />
+          <StaticImage alt="Joca" src="../images/gallery/joca-kids.JPG" />
+          <StaticImage alt="Joca" src="../images/gallery/mom.jpg" />
+          <StaticImage alt="Joca" src="../images/gallery/joca-hospital.jpeg" />
+          <StaticImage alt="Joca" src="../images/gallery/mom-group.JPG" />
+          <StaticImage
+            alt="Joca"
+            src="../images/gallery/family-skillsusa-pic.JPG"
           />
         </Masonry>
       </ResponsiveMasonry>

@@ -9,6 +9,7 @@
   left: 0;
   z-index: 1000;
   backdrop-filter: blur(7px);
+  transition:height 250ms ease;
 
   ul {
     list-style: none;
@@ -30,6 +31,17 @@
       font-size: 1.1rem;
       font-family: 'Inter', snas-serif;
       font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
     }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav {
+    height: 55px;
   }
 }
