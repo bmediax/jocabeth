@@ -15,13 +15,6 @@ const ScheduleTable = () => (
         paddingBlock: "30px",
       }}
     >
-      {/* <thead>
-        <tr>
-          <th>Time</th>
-          <th>Spanish</th>
-          <th>English</th>
-        </tr>
-      </thead> */}
       <tbody>
         <tr>
           <td>9:30 am</td>

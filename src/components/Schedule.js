@@ -10,10 +10,14 @@ import Section from "./Section";
 const Schedule = () => {
   return (
     <Section
-      title="Servicio Funerario / Funeral Service"
+      title="Servicio Funeral / Funeral Service"
       type="schedule"
       id="schedule"
+      style={{"--title-marginBlockEnd": "10px"}}
     >
+      <h3 className={scheduleStyles.date}>
+        SATURDAY, APRIL 23 / SABADO, ABRIL 23
+      </h3>
       <Container fluid={true} className={scheduleStyles.importantSection}>
         <Row>
           <Col md={12}>
@@ -46,7 +50,7 @@ const Schedule = () => {
             <blockquote>
               {/* Si trae un niño, esté atento a ellos ya que queremos sé respetuoso
               con los que estan presente. */}
-              El funeral puede ser un evento muy traumatica para nuestros
+              El funeral puede ser un evento muy traumatico para nuestros
               pequenos se les recomienda que queden en casa, pero si desean
               traerlos cuiden de ellos y hablen con ellos sobre lo que esta
               pasando.

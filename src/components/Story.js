@@ -25,7 +25,13 @@ const Story = () => {
         Zumba, ayudando y compartiendo sus experiencias con personas que también
         han tenido enfermedades crónicas y uniéndose a un estudio bíblico.
       </p>
-      <hr style={{height: "clamp(10px, 3vw, 40px)", background: "transparent"}}/>
+      <hr
+        style={{
+          height: "3px",
+          background: "#d9d9d9",
+          marginBlock: "clamp(10px, 2vw, 30px)",
+        }}
+      />
       <p>
         On Friday, April 15th, Jocabeth Teodoro - Garcia had medical
         complications that resulted in her passing away.

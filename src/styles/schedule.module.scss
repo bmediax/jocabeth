@@ -1,3 +1,13 @@
+.date {
+  text-align: center;
+  font-size: clamp(1.3rem, 3vw, 1.8em) !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #000;
+  margin-block-end: clamp(30px, 6vw, 50px) !important;
+}
+
 .scheduleSection {
   .invitation {
     font-weight: 500;
@@ -16,7 +26,7 @@
 
 .importantSection {
   & > div > div:not(:nth-child(-n + 2)) > blockquote {
-    margin-block-start:10px;
+    margin-block-start: 10px;
   }
 }
 
