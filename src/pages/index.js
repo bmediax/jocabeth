@@ -4,6 +4,7 @@ import "../styles/index.scss";
 import * as React from "react";
 
 import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
 import Header from "../components/header";
 import Schedule from "../components/Schedule";
 import Seo from "../components/seo";
@@ -23,6 +24,7 @@ const IndexPage = () => (
     />
     <Schedule />
     <ThankU />
+    <Gallery />
     <Footer />
   </>
 );

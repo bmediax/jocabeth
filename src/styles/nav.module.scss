@@ -1,0 +1,31 @@
+.nav {
+  width: 100%;
+  height: 75px;
+  background: rgb(255 255 255 / 90%);
+  box-shadow: 0px 10px 30px -25px rgb(0 0 0 / 50%);
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  backdrop-filter: blur(7px);
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.1rem;
+    font-family: 'Inter', snas-serif;
+    font-weight: 500;
+    z-index: 100;
+
+    li:not(:last-child):after {
+      content: '/';
+      margin-inline-start: 1em;
+    }
+  }
+}
