@@ -15,7 +15,7 @@ const Header = () => (
         </span>
       </div>
       <div className={headerStyles.btnGroup}>
-        <a href="#schedule" className="btn white-outline_active">
+        <a href="#service" className="btn white-outline_active">
           View Service <GiCandleLight />
         </a>
         <a

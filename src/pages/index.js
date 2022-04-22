@@ -6,6 +6,7 @@ import * as React from "react";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Header from "../components/header";
+import Nav from "../components/Nav";
 import Schedule from "../components/Schedule";
 import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
@@ -16,6 +17,7 @@ const IndexPage = () => (
   <>
     <Seo title="Jocabeth's Memorial" />
     <Header />
+    <Nav />
     <Story />
     <StaticImage
       src="../images/joca_altar.jpg"

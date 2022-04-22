@@ -18,14 +18,18 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    font-size: 1.1rem;
-    font-family: 'Inter', snas-serif;
-    font-weight: 500;
     z-index: 100;
 
     li:not(:last-child):after {
       content: '/';
       margin-inline-start: 1em;
+    }
+    li a {
+      text-decoration: none;
+      color: #212121;
+      font-size: 1.1rem;
+      font-family: 'Inter', snas-serif;
+      font-weight: 500;
     }
   }
 }

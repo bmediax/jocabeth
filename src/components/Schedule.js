@@ -12,7 +12,7 @@ const Schedule = () => {
     <Section
       title="Servicio Funeral / Funeral Service"
       type="schedule"
-      id="schedule"
+      id="service"
       style={{"--title-marginBlockEnd": "10px"}}
     >
       <h3 className={scheduleStyles.date}>

@@ -15,6 +15,9 @@ const Nav = () => {
         <li>
           <a href="#thanku">Thank You</a>
         </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
       </ul>
     </nav>
   );

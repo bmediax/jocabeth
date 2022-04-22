@@ -8,6 +8,7 @@ const Story = () => {
     <Section
       title="LA HISTORIA DE JOCABETH / JOCABETH’S STORY"
       type="intro"
+      id="story"
       className={storyStyles.section}
     >
       <p>

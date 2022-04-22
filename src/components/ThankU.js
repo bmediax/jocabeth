@@ -4,7 +4,7 @@ import Section from "./Section";
 
 const ThankU = () => {
   return (
-    <Section type="thanku">
+    <Section type="thanku" id="thanku">
       <h1>
         "Thank you to everyone who supported Jocabeth, she cared so much about
         the people around her and helping people who also had chronic
