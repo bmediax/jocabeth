@@ -55,20 +55,28 @@ blockquote {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  background: var(--color-minimal);
   display: block;
   padding: 10px 20px;
   border-radius: var(--radius-sm);
   width: 100%;
-  border-left: 7px solid #d35b5b;
+  border-left: 7px solid var(--color-purple);
   margin-inline: auto !important;
+  background:#FFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition:background 250ms ease, box-shadow 250ms ease;
+  
+  &:hover {
+    background: var(--color-minimal);
+    box-shadow:none;
+  }
 }
 .sectionImage {
   width: 100%;
-  max-height: 500px;
+  height:clamp(550px, 35vw, 900px);
+  // max-height: 550px;
 
   img {
-    object-position: bottom;
+    object-position: center 25%;
   }
 }
 
@@ -164,7 +172,7 @@ blockquote {
 
     svg {
       display: inline;
-      color: #d35b5b;
+      color: rgb(162, 84, 170);
     }
 
     span {

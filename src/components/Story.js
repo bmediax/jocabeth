@@ -12,20 +12,40 @@ const Story = () => {
       className={storyStyles.section}
     >
       <p>
-        El viernes 15 de abril, Jocabeth Teodoro - García tuvo complicaciones
-        médicas que resultaron en su fallecimiento.
+        Jocabeth Teodoro - Garcia nacio in Marcelia, Guerrero, fue hija de Cira
+        Garcia y Clemente Teodoro y tenia un hermano Abel Teodoro. Convivio con
+        tia Susana Garcia como una hermana.
       </p>
+
       <p>
-        Jocabeth, para quienes la conocían, era una mujer poderosa que había
-        estado luchando contra el lupus durante más de 15 años y era activa en
-        su comunidad. Ella inspiró a muchas personas y se esforzó por seguir
-        adelante.
+        Contrajo matrimonio con Victor Moreno y tuvieron dos hijos, Brian Moreno
+        - Teodoro and David Moreno - Teodoro.
       </p>
+
       <p>
-        Desde entonces, ha estado involucrada en la organización de clases de
-        Zumba, ayudando y compartiendo sus experiencias con personas que también
-        han tenido enfermedades crónicas y uniéndose a un estudio bíblico.
+        Fue una persona que no la detenia los obstaculos, como por ejemplo el
+        lupus, que es una enfermedad cronica comparada al cancer. Incluso con
+        barreras lingüísticas y culinarias por su amor a su familia y el
+        aprendizaje se convirtió en experta. Tomo clases de zumba para obtener
+        un certificado para poder ayudar a sus conocidas a mantener un estilo de
+        vida saludable y tambien empezo a dar clases de corte y confección para
+        poder ayudar a la comunidad.
       </p>
+
+      <p>
+        Le gustaba ayudar y participar en diferentes organizaciones, mientras le
+        permitia su estado de salud. Joca siempre busco la forma de estar bien
+        fisicamente y mentalmente. Ella siempre mantenia una dieta saludable, le
+        gustaba mucho hacer ejercicio, escuchar musica y platicas
+        motivacionales.
+      </p>
+
+      <p>
+        Siempre te recordaremos por haber sido una persona de buen corazon
+        apoyando y amando a tu familia en todo momento, por tu valentia en la
+        lucha contra lupus hasta el ultimo momento.
+      </p>
+
       <hr
         style={{
           height: "3px",
@@ -34,18 +54,35 @@ const Story = () => {
         }}
       />
       <p>
-        On Friday, April 15th, Jocabeth Teodoro - Garcia had medical
-        complications that resulted in her passing away.
+        Jocabeth Teodoro - Garcia was born in Marcelia, Guerrero, Mexico; she
+        was the daughter of Cira Garcia and Clemente Teodoro and had a brother
+        named Abel Teodoro. Jocabeth was very close with her aunt Susana Garcia
+        like a sister.
       </p>
       <p>
-        Jocabeth, for those that knew her, was a powerful woman who had been
-        fighting lupus for over 15 years and was active in her community. She
-        inspired many people and made strives to keep moving forward.
+        She was married to Victor Moreno and had two sons, Brian Moreno -
+        Teodoro and David Moreno - Teodoro.
       </p>
       <p>
-        Since then, she's been involved in organizing Zumba classes, helping and
-        sharing her experiences with people who've also had chronic conditions
-        and joining a bible study.
+        Jocabeth was a person who was not detained by any obstacles, like Lupus,
+        which is a chronic condition compared to Cancer. Even with linguistic
+        and culinary barriers, her love for her family and learning made her an
+        expert. She took Zumba classes to obtain her certification to help the
+        people around her maintain a healthy life. She also started cut and
+        confection classes to help the community.
+      </p>
+
+      <p>
+        She liked helping and participating in different organizations, while
+        her health condition allowed her. Joca always found a way to be good
+        physically and mentally. She always maintained a healthy diet; she loved
+        doing exercise and listening to motivational music/talks.
+      </p>
+
+      <p>
+        "We will always remember you for being a person with a big heart,
+        supporting and loving your family every moment, for being valiant in the
+        fight against lupus until the very last moments."
       </p>
     </Section>
   );

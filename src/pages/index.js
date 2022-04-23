@@ -20,7 +20,7 @@ const IndexPage = () => (
     <Nav />
     <Story />
     <StaticImage
-      src="../images/joca_altar.jpg"
+      src="../images/joca-viw.jpg"
       alt="Altar"
       className="sectionImage"
     />

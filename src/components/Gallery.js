@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Gallery = () => {
   return (
-    <Section title="Galería /Gallery" id="gallery">
+    <Section title="Galería / Gallery" id="gallery">
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry gutter=".5em">
           <StaticImage alt="Joca" src="../images/gallery/altar-fullview.jpg" />
