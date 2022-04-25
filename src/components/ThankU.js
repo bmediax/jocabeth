@@ -10,8 +10,9 @@ const ThankU = () => {
         the people around her and helping people who also had chronic
         conditions. Thank you so much. <AiTwotoneHeart />"
         <span>
-          - Victor Moreno (Husband), Brian Moreno - Teodoro (Son), and David
-          Moreno - Teodoro (Son)
+          - Victor Moreno (Husband), <br />
+          Brian Moreno - Teodoro (Son), <br />
+          and David Moreno - Teodoro (Son)
         </span>
       </h1>
     </Section>

@@ -11,7 +11,7 @@ const Footer = () => {
           En memoria de Jocabeth Teodoro - Garcia
         </i>
       </p>
-      <StaticImage src="../images/flower.png" alt="Flower" />
+      <StaticImage src="../images/flower.png" alt="Flower" draggable={false} />
     </footer>
   );
 };

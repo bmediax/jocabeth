@@ -30,7 +30,6 @@ const Gallery = () => {
           <StaticImage alt="Joca" src="../images/gallery/joca-kids.JPG" />
           <StaticImage alt="Joca" src="../images/gallery/mom.jpg" />
           <StaticImage alt="Joca" src="../images/gallery/joca-hospital.jpeg" />
-          <StaticImage alt="Joca" src="../images/gallery/mom-group.JPG" />
           <StaticImage
             alt="Joca"
             src="../images/gallery/family-skillsusa-pic.JPG"
