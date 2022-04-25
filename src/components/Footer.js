@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <p>
         <i>
-          En la memoria de Jocabeth Teodoro - Garcia
+          En memoria de Jocabeth Teodoro - Garcia
         </i>
       </p>
       <StaticImage src="../images/flower.png" alt="Flower" />
