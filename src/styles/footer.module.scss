@@ -1,12 +1,23 @@
 .footer {
-  background: #000;
-  border-top: 2px solid #121212;
+  position: relative;
   padding-block: 15px;
+
+  div[data-gatsby-image-wrapper] {
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    max-width: 700px;
+    margin-inline: auto;
+    display: block;
+    opacity: .1;
+  }
   p {
     margin: 0;
     padding: 0px;
     text-align: center;
     color: #595959;
     font-size: 1rem;
+    font-weight:500;
   }
 }

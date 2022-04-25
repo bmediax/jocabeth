@@ -2,7 +2,7 @@ import * as React from "react";
 import * as headerStyles from "../styles/header.module.scss";
 
 import { GiCandleLight } from "react-icons/gi";
-import { RiHandHeartFill } from "react-icons/ri";
+import { MdPhotoAlbum } from "react-icons/md";
 
 const Header = () => (
   <header id={headerStyles.header}>
@@ -15,16 +15,11 @@ const Header = () => (
         </span>
       </div>
       <div className={headerStyles.btnGroup}>
-        <a href="#service" className="btn white-outline_active">
-          View Service <GiCandleLight />
+        <a href="#story" className="btn white-outline_active">
+          View Story <GiCandleLight />
         </a>
-        <a
-          href="https://www.gofundme.com/f/jocabeth"
-          className="btn white-outline"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Donate Now <RiHandHeartFill />
+        <a href="#gallery" className="btn white-outline">
+          View Gallery <MdPhotoAlbum />
         </a>
       </div>
     </div>

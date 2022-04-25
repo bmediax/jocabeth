@@ -43,6 +43,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: "canonical",
+          content: "https://jocabeth.com",
+        },
+        {
           property: `og:title`,
           content: title,
         },

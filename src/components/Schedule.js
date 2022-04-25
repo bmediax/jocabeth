@@ -1,11 +1,9 @@
 import * as scheduleStyles from "../styles/schedule.module.scss";
 
-import { Col, Container, Row } from "react-bootstrap";
-
-import InfoCard from "./InfoCard";
+import { Container } from "react-bootstrap";
 import React from "react";
-import ScheduleTable from "./ScheduleTable";
 import Section from "./Section";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Schedule = () => {
   return (
@@ -13,13 +11,12 @@ const Schedule = () => {
       title="Servicio Funeral / Funeral Service"
       type="schedule"
       id="service"
-      style={{"--title-marginBlockEnd": "10px"}}
+      style={{ "--title-marginBlockEnd": "10px" }}
     >
-      <h3 className={scheduleStyles.date}>
-        SATURDAY, APRIL 23 / SABADO, ABRIL 23
-      </h3>
+      <h3 className={scheduleStyles.date}>04.23.2022</h3>
       <Container fluid={true} className={scheduleStyles.importantSection}>
-        <Row>
+        <ThankUAssist />
+        {/* <Row>
           <Col md={12}>
             <h2>Importante / Important</h2>
           </Col>
@@ -48,8 +45,6 @@ const Schedule = () => {
           </Col>
           <Col md={12}>
             <blockquote>
-              {/* Si trae un niño, esté atento a ellos ya que queremos sé respetuoso
-              con los que estan presente. */}
               El funeral puede ser un evento muy traumatico para nuestros
               pequenos se les recomienda que queden en casa, pero si desean
               traerlos cuiden de ellos y hablen con ellos sobre lo que esta
@@ -59,30 +54,14 @@ const Schedule = () => {
               The funeral can be a very traumatic event for our little ones, it
               is recommended that they stay home, but if you want to bring them,
               take care of them and talk to them about what is happening.
-              {/* If you are bringing a child, please be attentive to them as we
-              want to remain respectful to those who are present. */}
             </blockquote>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
-      <Container fluid={true} className={scheduleStyles.scheduleSection}>
+      {/* <Container fluid={true} className={scheduleStyles.scheduleSection}>
         <Row>
           <Col>
-            {/* Table with the Schedule */}
             <ScheduleTable />
-            {/* <p class={scheduleStyles.invitation}>
-              Despues del funeral se les invita a un Rosario y cena en la casa
-              de la familia Moreno Teodoro.{" "}
-              <a href="https://goo.gl/maps/XSAx4NnegatVMeKN8">
-                8943 NE GOING ST. Portland, OR.
-              </a>
-              <br></br>
-              After the burial we invite you to a Rosary and dinner at the house
-              of the Moreno Teodoro family.{" "}
-              <a href="https://goo.gl/maps/XSAx4NnegatVMeKN8">
-                8943 NE GOING ST. Portland, OR.
-              </a>
-            </p> */}
           </Col>
         </Row>
         <Row className={scheduleStyles.locationsSection}>
@@ -103,8 +82,31 @@ const Schedule = () => {
             />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </Section>
+  );
+};
+
+const ThankUAssist = () => {
+  return (
+    <div className={scheduleStyles.thanku}>
+      <p>
+        Gracias a todos los que asistieron el funeral de mi madre. Los apreciamos a todos. Porfavor,
+        vuelven a este sitio web; estaremos actualizando este página con más
+        fotos, queremos tenerlo como memorial a Jocabeth.
+      </p>
+      <p>
+        Thank you to everyone who assisted my mom's funeral
+        service. We appreciate you all. Feel free to come back to this website;
+        we will be updating this website with more pictures and have this site
+        up as a memorial to Jocabeth.
+      </p>
+      <StaticImage
+        src="../images/flower-decor.png"
+        alt="Flower Decoration"
+        placeholder="tracedSVG"
+      />
+    </div>
   );
 };
 

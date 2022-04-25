@@ -1,6 +1,7 @@
 .date {
   text-align: center;
-  font-size: clamp(1.3rem, 3vw, 1.8em) !important;
+  // font-size: clamp(1.3rem, 3vw, 1.8em) !important;
+  font-size: clamp(1.3rem, 3vw, 1.5rem) !important;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -30,8 +31,25 @@
   }
 }
 
-.locationsSection iframe {
-  margin-block-start: 15px;
+.thanku {
+  max-width: 650px;
+  margin-inline: auto;
+
+  div[data-gatsby-image-wrapper] {
+    max-width:300px;
+    margin-inline:auto;
+    margin-block-start:25px;
+    display: block;
+  }
+
+  p {
+    text-align: center;
+    line-height: 2;
+
+    &:not(:first-of-type) {
+      margin-block-start:10px;
+    }
+  }
 }
 
 @media screen and (max-width: 550px) {
