@@ -13,7 +13,7 @@ const Story = () => {
       className={storyStyles.section}
     >
       <p>
-        Jocabeth Teodoro - Garcia nacio in Marcelia, Guerrero, fue hija de Cira
+        Jocabeth Teodoro - Garcia nacio in Marquelia, Guerrero, fue hija de Cira
         Garcia y Clemente Teodoro y tenia un hermano Abel Teodoro. Convivio con
         tia Susana Garcia como una hermana.
       </p>

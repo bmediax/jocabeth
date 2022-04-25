@@ -1,5 +1,3 @@
-import "react-image-gallery/styles/scss/image-gallery.scss";
-
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import React from "react";

@@ -1,6 +1,7 @@
 .footer {
   position: relative;
   padding-block: 15px;
+  padding-top:clamp(170px, 34vw, 260px);
 
   div[data-gatsby-image-wrapper] {
     position: absolute;
