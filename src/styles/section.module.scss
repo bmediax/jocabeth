@@ -3,7 +3,7 @@
 
   .title {
     font-size: clamp(2rem, 5vw, 3rem) !important;
-    padding: 0px !important;
+    padding: 0px 10px !important;
     margin-block-start: 0px !important;
     margin-block-end: var(--title-marginBlockEnd, 30px) !important;
     line-height: 1.1;

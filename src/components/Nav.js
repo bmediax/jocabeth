@@ -13,6 +13,9 @@ const Nav = () => {
           <a href="#service">Service</a>
         </li>
         <li>
+          <a href="#40dias">40 días</a>
+        </li>
+        <li>
           <a href="#gallery">Gallery</a>
         </li>
       </ul>

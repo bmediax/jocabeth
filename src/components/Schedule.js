@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Schedule = () => {
   return (
     <Section
-      title="Servicio Funeral / Funeral Service"
+      title="Servicio Funeral // Funeral Service"
       type="schedule"
       id="service"
       style={{ "--title-marginBlockEnd": "10px" }}

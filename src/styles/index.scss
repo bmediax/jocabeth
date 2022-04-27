@@ -61,18 +61,19 @@ blockquote {
   width: 100%;
   border-left: 7px solid var(--color-purple);
   margin-inline: auto !important;
-  background:#FFF;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  transition:background 250ms ease, box-shadow 250ms ease;
-  
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: background 250ms ease, box-shadow 250ms ease;
+
   &:hover {
     background: var(--color-minimal);
-    box-shadow:none;
+    box-shadow: none;
   }
 }
 .sectionImage {
   width: 100%;
-  height:clamp(550px, 35vw, 900px);
+  height: clamp(550px, 35vw, 900px);
   // max-height: 550px;
 
   img {
@@ -166,7 +167,7 @@ blockquote {
 
   h1 {
     margin-block-start: 0px !important;
-    color: #fff;
+    color: var(--color-slate);
     font-size: clamp(1.3rem, 3vw, 2rem);
     line-height: 1.5;
 
@@ -180,6 +181,7 @@ blockquote {
       display: block;
       font-size: clamp(1.1rem, 3vw, 1.5rem);
       text-align: center;
+      color: #fff;
     }
   }
 }
@@ -209,6 +211,16 @@ blockquote {
   }
   h1 {
     margin-block-start: 20px !important;
+  }
+
+  p {
+    text-align: left !important;
+  }
+
+  .thanku-section {
+    h1, span {
+      text-align: left !important;
+    }
   }
 
   #card_wrapper {

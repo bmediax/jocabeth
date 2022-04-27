@@ -7,7 +7,7 @@ import Section from "./Section";
 const Story = () => {
   return (
     <Section
-      title="Obituario / Obituary"
+      title="Obituario // Obituary"
       type="intro"
       id="story"
       className={storyStyles.section}

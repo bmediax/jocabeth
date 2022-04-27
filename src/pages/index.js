@@ -3,6 +3,7 @@ import "../styles/index.scss";
 
 import * as React from "react";
 
+import CuarentaDias from "../components/CuarentaDias";
 import Footer from "../components/Footer";
 import Gallery from "../components/newGallery";
 import Header from "../components/header";
@@ -26,6 +27,7 @@ const IndexPage = () => {
         className="sectionImage"
       />
       <Schedule />
+      <CuarentaDias />
       <ThankU />
       <Gallery />
       <Footer />
