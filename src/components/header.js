@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as headerStyles from "../styles/header.module.scss";
 
+import { AiFillHeart } from "react-icons/ai";
 import { GiCandleLight } from "react-icons/gi";
-import { MdPhotoAlbum } from "react-icons/md";
 
 const Header = () => (
   <header id={headerStyles.header}>
@@ -18,8 +18,11 @@ const Header = () => (
         <a href="#story" className="btn white-outline_active">
           View Story <GiCandleLight />
         </a>
-        <a href="#gallery" className="btn white-outline">
-          View Gallery <MdPhotoAlbum />
+        <a
+          href="https://www.gofundme.com/f/jocabeth"
+          className="btn white-outline"
+        >
+          Donate Now <AiFillHeart />
         </a>
       </div>
     </div>
