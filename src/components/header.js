@@ -15,14 +15,16 @@ const Header = () => (
         </span>
       </div>
       <div className={headerStyles.btnGroup}>
-        <a href="#story" className="btn white-outline_active">
-          View Story <GiCandleLight />
+        <a href="#40dias" className="btn white-outline_active">
+          40 Días <GiCandleLight />
         </a>
         <a
           href="https://www.gofundme.com/f/jocabeth"
+          target="blank"
+          rel="noreferrer"
           className="btn white-outline"
         >
-          Donate Now <AiFillHeart />
+          Donate <AiFillHeart />
         </a>
       </div>
     </div>
