@@ -16,7 +16,7 @@ const Header = () => (
       </div>
       <div className={headerStyles.btnGroup}>
         <a href="#40dias" className="btn white-outline_active">
-          40 Días <GiCandleLight />
+          View 40 Días <GiCandleLight />
         </a>
         <a
           href="https://www.gofundme.com/f/jocabeth"
@@ -24,7 +24,7 @@ const Header = () => (
           rel="noreferrer"
           className="btn white-outline"
         >
-          Donate <AiFillHeart />
+          Donate Now <AiFillHeart />
         </a>
       </div>
     </div>

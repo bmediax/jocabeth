@@ -1,8 +1,11 @@
+@use './Topbar.module.scss' as TopbarVar;
+
 #header {
   background-image: url('../images/banner.jpg');
   background-size: cover;
   background-position: right center;
-  height: 100vh;
+  // height: 100vh;
+  height: calc(100vh - TopbarVar.$topbarHeight);
   min-height: 500px;
   width: 100%;
   grid-template-columns: 2fr 1fr;
@@ -68,7 +71,7 @@
 
 @media screen and (max-width: 1035px) {
   #header {
-    background-image:url("../images/joca_headshot.jpg");
+    background-image: url('../images/joca_headshot.jpg');
     grid-template-columns: 1fr;
     align-content: flex-end;
 
@@ -99,7 +102,7 @@
 
 @media screen and (max-width: 550px) {
   #header {
-    background-position:center -100px;
+    background-position: center -100px;
   }
   .btnGroup {
     flex-direction: column;

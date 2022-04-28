@@ -1,0 +1,75 @@
+$topbarHeight: 120px;
+$topbarBlockPadding: 20px;
+
+.container {
+  background: #121212;
+  padding-inline: 2%;
+
+  .wrapper {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    min-height: $topbarHeight;
+    padding: $topbarBlockPadding 0px;
+
+    .text {
+      flex: 2;
+      color: #fff;
+
+      & > * {
+        padding: 0px;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: inherit;
+        margin-block-end: 5px;
+        line-height: 1.5;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: rgb(155, 155, 155);
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .link {
+      flex: 1;
+      width: 100%;
+      text-align: center;
+      color: var(--color-slate);
+      text-decoration: none;
+      background: #333;
+      padding: 10px 0px;
+      border-radius: 7px;
+      transition: background 250ms ease, color 250ms ease;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+
+      &:hover {
+        background: var(--color-slate);
+        color: #232323;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 1em !important;
+
+    .text h3 {
+      text-align: center;
+    }
+  }
+}
