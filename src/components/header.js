@@ -19,12 +19,12 @@ const Header = () => (
           View 40 Días <GiCandleLight />
         </a>
         <a
-          href="https://www.gofundme.com/f/jocabeth"
+          href="#gallery"
           target="blank"
           rel="noreferrer"
           className="btn white-outline"
         >
-          Donate Now <AiFillHeart />
+          View Gallery <AiFillHeart />
         </a>
       </div>
     </div>
