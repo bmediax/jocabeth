@@ -13,10 +13,10 @@ const CuarentaDias = () => {
       style={{ "--title-marginBlockEnd": "10px" }}
     >
       <h3 className={cuarentaStyles.date}>
-        Lunes, Junio 2 // Monday, June 2nd
+        Miércoles, Mayo 25 // Wednesday, May 25
       </h3>
-      <p>Se les invita a un Rezo de 40 Dias el dia 2 de Junio 2022</p>
-      <p>We invite you to a "Rezo" of "40 días" June 2, 2022</p>
+      <p>Se les invita a un Rezo de 40 Dias el dia 25 de Mayo 2022</p>
+      <p>We invite you to a "Rezo" of "40 días" May 25th, 2022</p>
 
       <a
         target="_blank"
