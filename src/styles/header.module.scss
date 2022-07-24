@@ -1,7 +1,7 @@
-@use './Topbar.module.scss' as TopbarVar;
+@use "./Topbar.module.scss" as TopbarVar;
 
 #header {
-  background-image: url('../images/banner.jpg');
+  background-image: url("../images/banner.jpg");
   background-size: cover;
   background-position: right center;
   // height: 100vh;
@@ -23,7 +23,7 @@
 .title {
   color: #fff;
   line-height: 1;
-  font-family: 'Yeseva One', cursive !important;
+  font-family: "Yeseva One", cursive !important;
 
   .name,
   .memorial {
@@ -44,7 +44,7 @@
 
   .date {
     display: block;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     text-align: left;
     margin-block: 5px 10px;
@@ -61,6 +61,11 @@
       position: relative;
       top: -2px;
       display: inline-block;
+      // background: #fff;
+
+      path {
+        fill: var(--fill-color, white);
+      }
     }
   }
 
@@ -71,7 +76,7 @@
 
 @media screen and (max-width: 1035px) {
   #header {
-    background-image: url('../images/joca_headshot.jpg');
+    background-image: url("../images/joca_headshot.jpg");
     grid-template-columns: 1fr;
     align-content: flex-end;
 
@@ -106,5 +111,11 @@
   }
   .btnGroup {
     flex-direction: column;
+
+    a {
+      width: 100%;
+      text-align: center;
+      padding-block: 10px;
+    }
   }
 }

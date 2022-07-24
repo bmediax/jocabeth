@@ -2,7 +2,7 @@ import * as React from "react";
 import * as headerStyles from "../styles/header.module.scss";
 
 import { AiFillHeart } from "react-icons/ai";
-import { GiCandleLight } from "react-icons/gi";
+import { GrGallery } from "react-icons/gr";
 
 const Header = () => (
   <header id={headerStyles.header}>
@@ -15,16 +15,14 @@ const Header = () => (
         </span>
       </div>
       <div className={headerStyles.btnGroup}>
-        <a href="#40dias" className="btn white-outline_active">
-          View 40 Días <GiCandleLight />
+        <a href="#gallery" rel="noreferrer" className="butn white-outline">
+          View Gallery <GrGallery />
         </a>
         <a
-          href="#gallery"
-          target="blank"
-          rel="noreferrer"
-          className="btn white-outline"
+          href="https://www.lupus.org/resources/what-is-lupus"
+          className="butn white-outline_active"
         >
-          View Gallery <AiFillHeart />
+          What is Lupus <AiFillHeart />
         </a>
       </div>
     </div>

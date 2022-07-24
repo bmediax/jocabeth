@@ -1,4 +1,4 @@
-@use './variables';
+@use "./variables";
 
 // html,
 // body {
@@ -12,6 +12,11 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  scroll-padding-block-start: 75px;
+
+  @media screen and (max-width: 550px) {
+    scroll-padding-block-start: 55px;
+  }
 }
 
 body {
@@ -24,7 +29,7 @@ body {
 }
 
 h1 {
-  font-family: 'Yeseva One', cursive !important;
+  font-family: "Yeseva One", cursive !important;
   text-align: center;
   margin: 0%;
   padding: 0;
@@ -33,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif !important;
   text-align: center;
   font-weight: 700 !important;
   font-size: 1.8rem !important;
@@ -43,7 +48,7 @@ h2 {
 p {
   font-size: 1rem;
   color: #454545;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   a {
     color: var(--color-purple);
@@ -52,7 +57,7 @@ p {
 }
 
 blockquote {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1rem;
   display: block;
@@ -112,7 +117,7 @@ blockquote {
       color: #fff;
       padding: 0.7rem 0.5rem;
       text-decoration: none;
-      font-family: 'Yeseva One', cursive;
+      font-family: "Yeseva One", cursive;
       font-size: 1.1rem;
       font-weight: 900;
       text-align: center;
@@ -131,13 +136,15 @@ blockquote {
   }
 }
 
-.btn {
+.btn,
+.butn {
   padding: 7px 30px;
   font-size: 1.3rem;
   font-weight: 500;
+  text-decoration: none;
   border-radius: 0.5rem;
   background: var(--btn-bg, #fff);
-  color: var(--btn-color, #000);
+  color: var(--btn-color, #000) !important;
   border: 2px solid var(--btn-border, #fff);
   transition: background 250ms ease, color 250ms ease, border-color 250ms ease;
 }
@@ -156,6 +163,10 @@ blockquote {
 .white-outline_active {
   --btn-bg: #fff;
   --btn-color: #000;
+
+  svg path {
+    --fill-color: black;
+  }
 }
 
 .schedule-section {
@@ -181,7 +192,7 @@ blockquote {
       display: block;
       font-size: clamp(1.1rem, 3vw, 1.5rem);
       text-align: center;
-      color: #fff;
+      color: var(--color-slate);
     }
   }
 }
@@ -218,7 +229,8 @@ blockquote {
   }
 
   .thanku-section {
-    h1, span {
+    h1,
+    span {
       text-align: left !important;
     }
   }
